@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Gotham Pro';
+    src: url('../src/assets/fonts/GothaProReg.otf');
+  }
+  
+  @font-face {
+    font-family: 'Gotham Pro-Bold';
+    src: url('../src/assets/fonts/GothaProBol.otf');
+  }
+
+  @font-face {
+    font-family: 'Gotham Pro-Med';
+    src: url('../src/assets/fonts/GothaProMed.otf');
+  }
+}
