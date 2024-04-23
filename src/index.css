@@ -17,4 +17,14 @@
     font-family: 'Gotham Pro-Med';
     src: url('../src/assets/fonts/GothaProMed.otf');
   }
+
+  @font-face {
+    font-family: 'Gotham Pro-Black';
+    src: url('../src/assets/fonts/GothaProBla.otf');
+  }
+
+  @font-face {
+    font-family: 'Gotham Pro-Light';
+    src: url('../src/assets/fonts/GothaProLig.otf');
+  }
 }

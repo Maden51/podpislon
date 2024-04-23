@@ -22,6 +22,8 @@ export default {
       sans: ['Gotham Pro', 'sans-serif'],
       sansBold: ['Gotham Pro-Bold', 'sans-serif'],
       sansMed: ['Gotham Pro-Med', 'sans-serif'],
+      sansBlack: ['Gotham Pro-Black', 'sans-serif'],
+      sansLight: ['Gotham Pro-Light', 'sans-serif'],
     },
     extend: {},
   },
