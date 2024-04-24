@@ -1,15 +1,14 @@
 type ImageLayout = {
   children: React.ReactNode;
-  backgroundUrl: string;
+  backgroundUrl?: string;
   bgGradient?: string;
   pseudoClass?: string;
+  bgColor?: string;
 }
 
-// Разобраться с шириной окна
-
-function ImageLayout({children, backgroundUrl, pseudoClass}: ImageLayout) {
+function ImageLayout({children, backgroundUrl, pseudoClass, bgColor}: ImageLayout) {
   return (
-    <div className={'relative w-full h-full bg-center bg-no-repeat bg-cover ' + pseudoClass} style={{backgroundImage: backgroundUrl}}>
+    <div className={'relative w-full h-full bg-center bg-no-repeat bg-cover ' + pseudoClass + bgColor} style={{backgroundImage: backgroundUrl}}>
       {children}
     </div>
   )

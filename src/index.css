@@ -27,4 +27,14 @@
     font-family: 'Gotham Pro-Light';
     src: url('../src/assets/fonts/GothaProLig.otf');
   }
+
+  @font-face {
+    font-family: 'GT Walsheim Pro-Bold';
+    src: url('../src/assets/fonts/GTWalsheimPro-Bold.eot');
+  }
+
+  @font-face {
+    font-family: 'GT Walsheim Pro';
+    src: url('../src/assets/fonts/GTWalsheimPro-Regular.eot');
+  }
 }
