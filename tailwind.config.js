@@ -5,6 +5,7 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
     "./src/pages/**/*.{js,ts,jsx,tsx}",
     "./src/components/**/*.{js,ts,jsx,tsx}",
+    "./node_modules/tw-elements/js/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     screens: {
@@ -30,6 +31,7 @@ export default {
     },
     extend: {},
   },
-  plugins: [],
+  // eslint-disable-next-line no-undef
+  plugins: [require("tw-elements/plugin.cjs")],
 }
 

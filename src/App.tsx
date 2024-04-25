@@ -5,6 +5,7 @@ import FormMain from "./components/form-main";
 import LaptopImage from "./components/laptop-image";
 import QaMain from "./components/qa-main";
 import TarifsMain from "./components/tarifs-main";
+import Footer from "./containers/footer";
 import Hero from "./containers/hero";
 import Navigation from "./containers/navigation";
 
@@ -22,6 +23,7 @@ function App() {
       <DescriptionText title="Разве это законно?" />
       <TarifsMain />
       <QaMain/>
+      <Footer/>
     </main>
   );
 }
