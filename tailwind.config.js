@@ -26,6 +26,7 @@ export default {
       sansMed: ['Gotham Pro-Med', 'sans-serif'],
       sansBlack: ['Gotham Pro-Black', 'sans-serif'],
       sansLight: ['Gotham Pro-Light', 'sans-serif'],
+      sansItalic: ['Gotham Pro-Medium Italic', 'sans-serif'],
       walsheimBold: ['GT Walsheim Pro-Bold', 'sans-serif'],
       waslheim: ['GT Walsheim', 'sans-serif'],
     },

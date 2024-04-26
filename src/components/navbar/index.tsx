@@ -1,9 +1,11 @@
+import { Link } from "react-router-dom";
+
 function Navbar() {
   return (
     <div className="flex flex-row items-center justify-between">
-      <div>
+      <Link to={'/'}>
         <img src="../src/assets/images/logo.svg" alt="лого Подпислон" />
-      </div>
+      </Link>
       <nav className="ml-32">
         <ul className="flex flex-row gap-x-12">
           <li><a href="#" className="hover:text-orange transition-colors">О сервисе</a></li>

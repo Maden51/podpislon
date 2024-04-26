@@ -29,6 +29,11 @@
   }
 
   @font-face {
+    font-family: 'Gotham Pro-Medium Italic';
+    src: url('../src/assets/fonts/GothamProMediumItalic.ttf');
+  }
+
+  @font-face {
     font-family: 'GT Walsheim Pro-Bold';
     src: url('../src/assets/fonts/GTWalsheimPro-Bold.eot');
   }

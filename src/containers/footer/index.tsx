@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import ImageLayout from "../../components/image-layout";
 import PageLayout from "../../components/page-layout";
 
@@ -29,7 +30,7 @@ function Footer(){
           <div className="text-white">
             <h3 className="mb-7 font-sansBold text-lg">Документы</h3>
             <ul>
-              <li className="mb-7 hover:text-orange transition-colors"><a href="#">Политика конфиденциальности</a></li>
+              <li className="mb-7 hover:text-orange transition-colors"><Link to="/documents/politics">Политика конфиденциальности</Link></li>
               <li className="mb-7 hover:text-orange transition-colors"><a href="#">Лицензионный договор</a></li>
               <li className="mb-7 hover:text-orange transition-colors"><a href="#">Оферта</a></li>
               <li className="hover:text-orange transition-colors"><a href="#">Реквизиты</a></li>
