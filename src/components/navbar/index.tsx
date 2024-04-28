@@ -8,7 +8,7 @@ function Navbar() {
       </Link>
       <nav className="ml-32">
         <ul className="flex flex-row gap-x-12">
-          <li><a href="#" className="hover:text-orange transition-colors">О сервисе</a></li>
+          <li><Link to="/about" className="hover:text-orange transition-colors">О сервисе</Link></li>
           <li><a href="#" className="hover:text-orange transition-colors">Цены</a></li>
           <li><a href="#" className="hover:text-orange transition-colors">Поддержка</a></li>
           <li><a href="#" className="hover:text-orange transition-colors">Для СМИ</a></li>

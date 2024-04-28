@@ -12,19 +12,23 @@ import Navigation from "../../containers/navigation";
 
 function Main() {
   return (
-    <main>
-    <Navigation />
-      <Hero/>
-      <Advantages/>
-      <LaptopImage/>
-      <DescriptionText title="КАК ЭТО РАБОТАЕТ" />
-      <DescriptionList/>
-      <FormMain/>
-      <DescriptionText title="Разве это законно?" />
-      <TarifsMain />
-      <QaMain/>
-      <Footer/>
-    </main>
+    <div className="overflow-hidden flex flex-col min-h-screen">
+      <Navigation/>
+      <main>
+        <Hero/>
+        <Advantages/>
+        <LaptopImage/>
+        <DescriptionText title="КАК ЭТО РАБОТАЕТ" />
+        <DescriptionList/>
+        <FormMain/>
+        <DescriptionText title="Разве это законно?" />
+        <TarifsMain />
+        <QaMain/>
+      </main>
+      <footer className="mt-auto">
+       <Footer/>
+      </footer>
+    </div>
   )
 }
 

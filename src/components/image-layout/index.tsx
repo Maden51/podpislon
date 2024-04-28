@@ -8,7 +8,7 @@ type ImageLayout = {
 
 function ImageLayout({children, backgroundUrl, pseudoClass, bgColor}: ImageLayout) {
   return (
-    <div className={'relative w-full h-full bg-center bg-no-repeat bg-cover ' + pseudoClass + bgColor} style={{backgroundImage: backgroundUrl}}>
+    <div className={'relative w-full h-full bg-no-repeat bg-cover ' + pseudoClass + bgColor} style={{backgroundImage: backgroundUrl}}>
       {children}
     </div>
   )

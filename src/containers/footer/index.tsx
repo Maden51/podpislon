@@ -6,7 +6,7 @@ function Footer(){
   const year = new Date().getFullYear();
 
   return(
-    <ImageLayout pseudoClass="" bgColor="bg-dark-gray">
+    <ImageLayout pseudoClass="" bgColor="bg-dark-gray ">
       <PageLayout>
         <div className="py-20 flex justify-between">
           <div>

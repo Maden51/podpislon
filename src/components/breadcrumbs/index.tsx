@@ -3,12 +3,13 @@ import PageLayout from "../page-layout";
 
 type Breadcrumbs = {
   breadcrumbs: {link?: string, label: string}[];
+  className: string;
 }
 
-function Breadcrumbs({breadcrumbs}: Breadcrumbs) {
+function Breadcrumbs({breadcrumbs, className}: Breadcrumbs) {
   return (  
     <PageLayout>
-        <ul className="flex my-10 text-[13px] text-dark-gray">
+        <ul className={className}>
           {breadcrumbs.map((breadcrumb, index) => (
             <li key={index}>
               {index > 0 && <span className="mx-1">/</span>}
