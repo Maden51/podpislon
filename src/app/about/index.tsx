@@ -60,6 +60,44 @@ function About() {
             </div>
           </PageLayout>
         </ImageLayout>
+        <PageLayout>
+          <section className="mt-16">
+            <h2 className="font-sansBold leading-relaxed text-[52px]">Для отдела продаж</h2>
+            <p className="leading-relaxed max-w-[1020px]">Сделайте процесс работы с клиентом максимально простым и удобным для него. Это может быть вашим конкурентным преимуществом. Сделайте процесс работы с клиентом максимально простым и удобным для него. Это может быть вашим конкурентным преимуществом.</p>
+            <div className="px-10 flex items-center">
+              <img src="../src/assets/images/about-SD.png" alt="Графика отдела продаж"/>
+              <div className="max-w-[284px] ml-[200px]">
+                <h3 className=" font-sansBold text-xl leading-relaxed">Какие документы можно подписывать с клиентами?</h3>
+                <ul className="list-disc mt-5">
+                  <li className="ml-4 leading-loose">Договоры</li>
+                  <li className="ml-4 leading-loose">Соглашения</li>
+                  <li className="ml-4 leading-loose">NDA</li>  
+                  <li className="ml-4 leading-loose">Акты</li>
+                  <li className="ml-4 leading-loose">Накладные</li>
+                  <li className="ml-4 leading-loose">Согласие на обработку данных</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+          <section className="flex pb-24">
+            <div>
+              <h2 className="font-sansBold leading-relaxed text-[52px]">Для HR</h2>
+              <p className="leading-relaxed">Развитие информациолнных технологий и пандемия 2020 года прочно  закрепили в нашей жизни понятие “удаленная работ”. Компании сокращают расходы на содержание офисов, находят лучшие кадры в регионах, оптимизируют свои процессы. Сервис подпислон может помочь систематизировать документооборот  с удаленными сотрудниками и сделать его юридически значимым. </p>
+              <div className="max-w-[407px] mt-10">
+                <h3 className=" font-sansBold text-xl leading-relaxed">Какие договоры можно подписывать с сотрудниками?</h3>
+                <ul className="list-disc mt-5">
+                  <li className="ml-4 leading-loose">Трудовой договор</li>
+                  <li className="ml-4 leading-loose">Согласие на обработку данных</li>
+                  <li className="ml-4 leading-loose">Служебные записки</li>
+                  <li className="ml-4 leading-loose">Заявления</li>
+                  <li className="ml-4 leading-loose">NDA</li>
+                </ul>
+              </div>
+            </div>
+            <img src="../src/assets/images/about-HR.png" alt="О работе HR отдела" />
+          </section>
+          <div className=" w-screen h-60 bg-dark-gray"></div>
+        </PageLayout>
       </main>
       <footer className="mt-auto">
         <Footer/>

@@ -43,3 +43,8 @@
     src: url('../src/assets/fonts/GTWalsheimPro-Regular.eot');
   }
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
