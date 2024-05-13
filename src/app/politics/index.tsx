@@ -10,7 +10,7 @@ function Politics() {
     {label: "Политика конфединциальности"}
   ]
   return (
-    <div className="overflow-hidden flex flex-col min-h-screen">
+    <div className="overflow-hidden flex flex-col min-h-screen font-sansReg">
       <Navigation/>
       <main>
         <Breadcrumbs breadcrumbs={breadcrumbs} className="flex my-10 text-[13px] text-dark-gray"/>

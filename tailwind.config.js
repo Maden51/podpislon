@@ -21,7 +21,7 @@ export default {
       'black': '#000',
     },
     fontFamily: {
-      sans: ['Gotham Pro', 'sans-serif'],
+      sansReg: ['Gotham Pro', 'sans-serif'],
       sansBold: ['Gotham Pro-Bold', 'sans-serif'],
       sansMed: ['Gotham Pro-Med', 'sans-serif'],
       sansBlack: ['Gotham Pro-Black', 'sans-serif'],

@@ -12,7 +12,7 @@ import Navigation from "../../containers/navigation";
 
 function Main() {
   return (
-    <div className="overflow-hidden flex flex-col min-h-screen">
+    <div className="overflow-hidden flex flex-col min-h-screen font-sansReg">
       <Navigation/>
       <main>
         <Hero/>

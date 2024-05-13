@@ -1,8 +1,10 @@
 import AboutCard from "../../components/about-card";
+import AboutTabs from "../../components/about-tabs";
 import Breadcrumbs from "../../components/breadcrumbs";
 import ButtonMain from "../../components/buttons/button-main";
 import ImageLayout from "../../components/image-layout";
 import PageLayout from "../../components/page-layout";
+import QaMain from "../../components/qa-main";
 import Footer from "../../containers/footer";
 import Navigation from "../../containers/navigation";
 
@@ -13,7 +15,7 @@ function About() {
   ]
 
   return (
-    <div className="overflow-hidden flex flex-col min-h-screen">
+    <div className="overflow-hidden flex flex-col min-h-screen font-sansReg">
       <Navigation/>
       <main>
         <ImageLayout backgroundUrl="url(../src/assets/images/about-bg.png)">
@@ -96,8 +98,112 @@ function About() {
             </div>
             <img src="../src/assets/images/about-HR.png" alt="О работе HR отдела" />
           </section>
-          <div className=" w-screen h-60 bg-dark-gray"></div>
         </PageLayout>
+        <ImageLayout bgColor=" bg-[#F2F2F2]">
+          <div className="h-[455px]"></div>
+        </ImageLayout>
+        <PageLayout>
+          <div className="-mt-[25rem] relative">
+            <h2 className=" font-sansBold text-[52px] leading-relaxed text-center mb-5">Проще и удобнее</h2>
+            <div className="pt-8 pb-5 px-5 shadow-xl bg-white">
+              <table className=" table-auto border-collapse">
+                <thead>
+                  <tr className="">
+                    <th></th>
+                    <th className="px-4 pb-3">
+                      <img src="../src/assets/images/logo-table.svg" alt="Логотип" />
+                    </th>
+                    <th className="text-sm font-sansMed leading-none px-3 pb-3">Другие сервисы ПЭП*</th>
+                    <th className="text-sm font-sansMed leading-none px-3 pb-3">Классическое ЭДО**</th>
+                    <th className="text-sm font-sansMed leading-none px-3 pb-3">Бумажный документооборот</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td className=" border text-sm font-sansBold py-4 px-5 max-w-[450px]">Юридически значимый документооборот</td>
+                    <td className=" border font-sansMed text-[32px] text-orange text-center">+</td>
+                    <td className=" border font-sansMed text-[32px] text-orange text-center">+</td>
+                    <td className=" border font-sansMed text-[32px] text-orange text-center">+</td>
+                    <td className=" border font-sansMed text-[32px] text-orange text-center">+</td>
+                  </tr>
+                  <tr>
+                    <td className=" border text-sm font-sansBold py-4 px-5 max-w-[450px]">Полностью удаленное подписание</td>
+                    <td className=" border font-sansMed text-[32px] text-orange text-center">+</td>
+                    <td className=" border font-sansMed text-[32px] text-orange text-center">+</td>
+                    <td className=" border font-sansMed text-[32px] text-orange text-center">+</td>
+                    <td className=" border font-sansMed text-[32px] text-[#bbbbbb] text-center">-</td>
+                  </tr>
+                  <tr>
+                    <td className=" border text-sm font-sansBold py-4 px-5 max-w-[450px]">Электронный архив документов</td>
+                    <td className=" border font-sansMed text-[32px] text-orange text-center">+</td>
+                    <td className=" border font-sansMed text-[32px] text-orange text-center">+</td>
+                    <td className=" border font-sansMed text-[32px] text-orange text-center">+</td>
+                    <td className=" border font-sansMed text-[32px] text-[#bbbbbb] text-center">-</td>
+                  </tr>
+                  <tr>
+                    <td className=" border text-sm font-sansBold py-4 px-5 max-w-[450px]">Юридически значимый документооборот</td>
+                    <td className=" border font-sansMed text-[32px] text-orange text-center">+</td>
+                    <td className=" border font-sansMed text-[32px] text-orange text-center">+</td>
+                    <td className=" border font-sansMed text-[32px] text-orange text-center">+</td>
+                    <td className=" border font-sansMed text-[32px] text-orange text-center">+</td>
+                  </tr>
+                  <tr>
+                    <td className=" border text-sm font-sansBold py-4 px-5 max-w-[450px]">Подписание без токенов</td>
+                    <td className=" border font-sansMed text-[32px] text-orange text-center">+</td>
+                    <td className=" border font-sansMed text-[32px] text-orange text-center">+</td>
+                    <td className=" border font-sansMed text-[32px] text-[#bbbbbb] text-center">-</td>
+                    <td className=" border font-sansMed text-[32px] text-orange text-center">+</td>
+                  </tr>
+                  <tr>
+                    <td className=" border text-sm font-sansBold py-4 px-5 max-w-[450px]">Для подписания клиенту достаточно телефона</td>
+                    <td className=" border font-sansMed text-[32px] text-orange text-center">+</td>
+                    <td className=" border font-sansMed text-[32px] text-orange text-center">+</td>
+                    <td className=" border font-sansMed text-[32px] text-[#bbbbbb] text-center">-</td>
+                    <td className=" border font-sansMed text-[32px] text-[#bbbbbb] text-center">-</td>
+                  </tr>
+                  <tr>
+                    <td className=" border text-sm font-sansBold py-4 px-5 max-w-[450px]">Клиенту не требуется регистрация</td>
+                    <td className=" border font-sansMed text-[32px] text-orange text-center">+</td>
+                    <td className=" border font-sansMed text-[32px] text-[#bbbbbb] text-center">-</td>
+                    <td className=" border font-sansMed text-[32px] text-[#bbbbbb] text-center">-</td>
+                    <td className=" border font-sansMed text-[32px] text-orange text-center">+</td>
+                  </tr>
+                  <tr>
+                    <td className=" border text-sm font-sansBold py-4 px-5 max-w-[450px]">Клиенту не требуется устанавливать мобильное приложения или авторизация в личном кабинете</td>
+                    <td className=" border font-sansMed text-[32px] text-orange text-center">+</td>
+                    <td className=" border font-sansMed text-[32px] text-[#bbbbbb] text-center">-</td>
+                    <td className=" border font-sansMed text-[32px] text-[#bbbbbb] text-center">-</td>
+                    <td className=" border font-sansMed text-[32px] text-orange text-center">+</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div className="text-sm flex justify-end mt-7 gap-4">
+              <div>*Простая электронная подпись</div>
+              <div>**Электронный документооборот</div>
+            </div>
+          </div>
+          <div className="text-center max-w-[750px] mx-auto mt-12">
+            <h2 className=" font-sansBold text-[52px] leading-none text-orange">Да, это полностью законно</h2>
+            <div className=" font-sansMed text-xl leading-none mt-3">Каждый документ, подписанный в сервисе “Подпислон”, имеет юридическую силу, признается судебными органами</div>
+          </div>
+          <div className="border-[3px] border-[#333333] px-24 py-6 mt-20 flex items-center max-w-[1010px] mx-auto">
+            <img src="../src/assets/images/free-icon-legal-document.svg" alt="иконка легальных документов" />
+            <div className="ml-14 leading-none max-w-[668px]">Согласно ФЗ № 63 «Об электронной подписи» документ, подписанный ПЭП, имеет такую же юридическую силу, как и подписанный собственноручно.</div>
+          </div>
+          <div className="mt-20 -mb-20 relative z-10 bg-white">
+            <AboutTabs />
+          </div>
+        </PageLayout>
+        <ImageLayout backgroundUrl="url(../src/assets/images/about-bg3.png)">
+          <PageLayout>
+            <div className="flex items-center py-40">
+              <h2 className=" font-sansBold text-[52px] leading-none text-white uppercase mr-20">10 бесплатных документов после регистрации</h2>
+              <ButtonMain title="Попробовать бесплатно" svg="&#8594;" wmax="max-w-[379px]"/>
+            </div>
+          </PageLayout>
+        </ImageLayout>
+        <QaMain/>
       </main>
       <footer className="mt-auto">
         <Footer/>
