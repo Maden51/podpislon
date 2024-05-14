@@ -40,7 +40,7 @@ function Footer(){
             <h3 className="mb-7 font-sansBold text-lg">О Сервисе</h3>
             <ul>
               <li className="mb-6 hover:text-orange transition-colors"><a href="#">Возможности</a></li>
-              <li className="mb-6 hover:text-orange transition-colors"><a href="#">Цены</a></li>
+              <li className="mb-6 hover:text-orange transition-colors"><Link to="/prices">Цены</Link></li>
               <li className="mb-6 hover:text-orange transition-colors"><a href="#">Поддержка</a></li>
               <li className="mb-6 hover:text-orange transition-colors"><a href="#">Для СМИ</a></li>
               <li className="hover:text-orange transition-colors"><a href="#">Контакты</a></li>

@@ -4,9 +4,10 @@ import PageLayout from "../page-layout";
 type Breadcrumbs = {
   breadcrumbs: {link?: string, label: string}[];
   className: string;
+  classNameDisabled: string;
 }
 
-function Breadcrumbs({breadcrumbs, className}: Breadcrumbs) {
+function Breadcrumbs({breadcrumbs, className, classNameDisabled}: Breadcrumbs) {
   return (  
     <PageLayout>
         <ul className={className}>
@@ -16,7 +17,7 @@ function Breadcrumbs({breadcrumbs, className}: Breadcrumbs) {
               {breadcrumb.link ? (
                 <Link className="hover:text-orange transition-colors" to={breadcrumb.link}>{breadcrumb.label}</Link>
               ) : (
-                <span className=" text-light-gray">{breadcrumb.label}</span>
+                <span className={classNameDisabled}>{breadcrumb.label}</span>
               )}
             </li>
           ))}

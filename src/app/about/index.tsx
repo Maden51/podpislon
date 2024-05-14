@@ -19,7 +19,7 @@ function About() {
       <Navigation/>
       <main>
         <ImageLayout backgroundUrl="url(../src/assets/images/about-bg.png)">
-          <Breadcrumbs breadcrumbs={breadcrumbs} className="flex mb-11 pt-11" />
+          <Breadcrumbs breadcrumbs={breadcrumbs} className="flex mb-11 pt-11" classNameDisabled="text-light-gray" />
           <PageLayout>
             <div className="mt-16 font-sansBold pb-[160px]">
               <div className=" text-[#74797F] text-4xl leading-[116%] bg-white py-2.5 px-5 w-fit -rotate-2">Первый специализированный</div>

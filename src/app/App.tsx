@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import Main from "./main";
 import Politics from "./politics";
 import About from "./about";
+import Prices from "./prices";
 
 function App() {
   return (
@@ -17,6 +18,10 @@ function App() {
       <Route
         path="/about"
         element={<About />}
+      />
+      <Route
+        path="/prices"
+        element={<Prices />}
       />
     </Routes>
   );
