@@ -30,6 +30,9 @@ export default {
       walsheimBold: ['GT Walsheim Pro-Bold', 'sans-serif'],
       waslheim: ['GT Walsheim', 'sans-serif'],
     },
+    fontSize: {
+      h1: '52px',
+    },
     extend: {},
   },
 

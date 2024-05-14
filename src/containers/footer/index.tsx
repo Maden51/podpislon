@@ -42,7 +42,7 @@ function Footer(){
               <li className="mb-6 hover:text-orange transition-colors"><a href="#">Возможности</a></li>
               <li className="mb-6 hover:text-orange transition-colors"><Link to="/prices">Цены</Link></li>
               <li className="mb-6 hover:text-orange transition-colors"><a href="#">Поддержка</a></li>
-              <li className="mb-6 hover:text-orange transition-colors"><a href="#">Для СМИ</a></li>
+              <li className="mb-6 hover:text-orange transition-colors"><Link to="/SMM">Для СМИ</Link></li>
               <li className="hover:text-orange transition-colors"><a href="#">Контакты</a></li>
             </ul>
           </div>

@@ -3,6 +3,7 @@ import Main from "./main";
 import Politics from "./politics";
 import About from "./about";
 import Prices from "./prices";
+import SMM from "./SMM";
 
 function App() {
   return (
@@ -22,6 +23,10 @@ function App() {
       <Route
         path="/prices"
         element={<Prices />}
+      />
+      <Route
+        path="/SMM"
+        element={<SMM />}
       />
     </Routes>
   );
