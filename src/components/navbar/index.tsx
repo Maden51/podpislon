@@ -12,7 +12,7 @@ function Navbar() {
           <li><Link to="/prices" className="hover:text-orange transition-colors">Цены</Link></li>
           <li><a href="#" className="hover:text-orange transition-colors">Поддержка</a></li>
           <li><Link to="/SMM" className="hover:text-orange transition-colors">Для СМИ</Link></li>
-          <li><a href="#" className="hover:text-orange transition-colors">Контакты</a></li>
+          <li><Link to="/contacts" className="hover:text-orange transition-colors">Контакты</Link></li>
         </ul>
       </nav>
     </div>

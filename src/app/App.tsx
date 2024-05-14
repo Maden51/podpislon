@@ -4,31 +4,39 @@ import Politics from "./politics";
 import About from "./about";
 import Prices from "./prices";
 import SMM from "./SMM";
+import Contacts from "./contacts";
+import { YMaps } from "@pbe/react-yandex-maps";
 
 function App() {
   return (
-    <Routes>
-      <Route 
-        path="/"
-        element={<Main />}
-      />
-      <Route 
-        path="/documents/politics" 
-        element={<Politics />}
-      />
-      <Route
-        path="/about"
-        element={<About />}
-      />
-      <Route
-        path="/prices"
-        element={<Prices />}
-      />
-      <Route
-        path="/SMM"
-        element={<SMM />}
-      />
-    </Routes>
+    <YMaps>
+      <Routes>
+        <Route 
+          path="/"
+          element={<Main />}
+        />
+        <Route 
+          path="/documents/politics" 
+          element={<Politics />}
+        />
+        <Route
+          path="/about"
+          element={<About />}
+        />
+        <Route
+          path="/prices"
+          element={<Prices />}
+        />
+        <Route
+          path="/SMM"
+          element={<SMM />}
+        />
+        <Route
+          path="/contacts"
+          element={<Contacts />}
+        />
+      </Routes>
+    </YMaps>
   );
 }
 
