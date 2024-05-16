@@ -9,6 +9,7 @@ export default {
   ],
   theme: {
     screens: {
+      'tablet': {'min': '640px', 'max': '1219px'},
       'desktop': '1219px',
     },
     colors: {

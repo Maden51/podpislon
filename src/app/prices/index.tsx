@@ -12,7 +12,7 @@ function Prices() {
     {label: "Цены"},
   ]
   return (
-    <div className="overflow-hidden flex flex-col min-h-screen font-sansReg">
+    <div className="overflow-hidden flex flex-col min-h-screen font-sansReg ">
       <Navigation/>
       <main>
         <ImageLayout backgroundUrl="url(../src/assets/images/about-bg-2.png)">
@@ -39,15 +39,15 @@ function Prices() {
           <div className="flex gap-x-10 mb-24">
             <div className="border-[3px] border-orange py-7 px-4 flex items-center justify-center max-w-[380px] w-full">
               <img src="../src/assets/images/free-print.svg" alt="иконка принтера" />
-              <div>Нет расходов на печать</div>
+              <div className="text-lg max-w-36 leading-none ml-9">Нет расходов на печать</div>
             </div>
             <div className="border-[3px] border-orange py-7 px-4 flex items-center justify-center max-w-[380px] w-full">
               <img src="../src/assets/images/free-wallet.svg" alt="иконка кошелька" />
-              <div>Нет почтовых расходов</div>
+              <div className="text-lg max-w-36 leading-none ml-9">Нет почтовых расходов</div>
             </div>
             <div className="border-[3px] border-orange py-7 px-4 flex items-center justify-center max-w-[380px] w-full">
               <img src="../src/assets/images/free-icon-delivery-truck.svg" alt="иконка грузовика" />
-              <div>Нет расходов на курьеров</div>
+              <div className="text-lg max-w-36 leading-none ml-9">Нет расходов на курьеров</div>
             </div>
           </div>
         </PageLayout>

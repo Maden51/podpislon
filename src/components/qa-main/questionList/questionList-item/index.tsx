@@ -8,7 +8,7 @@ function QuestionListItem() {
   return (
     <div>
       <button 
-        className="text-left w-[589px] box-border inline-block max-w-[590px] bg-white py-3 px-5 text-lg leading-[165.6%] hover:text-orange cursor-pointer transition duration-150 ease-in-out"
+        className="text-left w-full box-border inline-block max-w-[590px] bg-white py-3 px-5 text-lg leading-[165.6%] hover:text-orange cursor-pointer transition duration-150 ease-in-out"
         type='button'
         onClick={toggleShow}
       ><span className="text-orange font-sansBold mr-4">+</span>Почему земля синяя?</button>
